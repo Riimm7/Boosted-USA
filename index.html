@@ -4,53 +4,54 @@
 		<title>Boosted USA</title>
 		<link rel="stylesheet" href="css/style.css"/>
 		<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="/css/style.css">
 	</head>
 	<body>
 		<div class="wrapper">
+			<div class="top-string">
+				Financing option available at checkout.
+			</div>
 			<header class="header">
-				<div class="header top">
-					Financing option available at checkout.
+				<div class="header__logo">
+					<img src="/img/logo.png" alt="logo">
 				</div>
-				<div class="header main">
-					<div class="header__logo">
-						<img src="/img/logo.png" alt="logo">
-					</div>
-					<nav class="menu">
-						<ul class="menu__list">
-							<li class="menu__item">
-								<a class="menu__link" href="#">Electric Skateboards</a>
-							</li>
-							<li class="menu__item">
-								<a class="menu__link" href="#">Electric Scooters</a>
-							</li>
-							<li class="menu__item">
-								<a class="menu__link" href="#">Accessories</a>
-							</li>
-							<li class="menu__item">
-								<a class="menu__link" href="#">Gift Card</a>
-							</li>
-							<li class="menu__item">
-								<a class="menu__link" href="#">More Info</a>
-							</li>
-						</ul>
-					</nab>
-					<div class="header__icons">
-						<a class="account__icon" href="#">
-							<img src="/img/icons/account-icon.svg" alt="icon">
-						</a>
-						<a class="card__icon" href="#">
-							<img src="/img/icons/basket-icon.svg" alt="icon">
-						</a>
-					</div>
+				<nav class="menu">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a class="menu__link" href="#">Electric Skateboards</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">Electric Scooters</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">Accessories</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">Gift Card</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">More Info</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__icons">
+					<a class="account__icon" href="#">
+						<img src="/img/icons/account-icon.svg" alt="icon">
+					</a>
+					<a class="card__icon" href="#">
+						<img src="/img/icons/basket-icon.svg" alt="icon">
+					</a>
 				</div>
 			</header>
 			<main class="main">
 				<section class="welcome">
+					<img class="welcome__bg" src="/img/main_bg.jpg" alt="">
 					<div class="welcome__title">Welcome to Boosted USA</div>
 					<p class="welcome__subtitle">The Holy Grail of Electric Skateboards and One REVolutionary Scooter</p>
 					<div class="welcome__buttons">
-						<a class="btn" href="#">BOOSTED REVS</a>
-						<a class="btn" href="#">BOOSTED BOARDS</a>
+						<a class="btn welcome__button" href="#">BOOSTED REVS</a>
+						<a class="btn welcome__button" href="#">BOOSTED BOARDS</a>
 					</div>
 				</section>
 				<section class="sponsors">
@@ -77,37 +78,48 @@
 						</div>
 						<div class="shop-products__items">
 							<div class="shop-products__item">
-								<img src="/img/icons/shop-product_icon.svg" alt="">
-								<h3 class="shop-products__title">Shop Boosted Boards</h3>
-								<p class="shop-products__subtitle">In Stock</p>
+								<a class="shop-products__item-link" href="#">
+									<img class="shop-products__bg" src="/img/boards-shop.jpg" alt="">
+									<img class="shop-products__item-icon" src="/img/icons/shop-product_icon.svg" alt="">
+									<h3 class="shop-products__item-title">Shop Boosted Boards</h3>
+									<p class="shop-products__item-subtitle">In Stock</p>
+								</a>
 							</div>
 							<div class="shop-products__item">
-								<img src="/img/icons/shop-product_icon.svg" alt="">
-								<h3 class="shop-products__title">Shop Boosted Revs</h3>
-								<p class="shop-products__subtitle">In Stock</p>
+								<a class="shop-products__item-link" href="#">
+									<img class="shop-products__bg" src="/img/revs-shop.jpg" alt="">
+									<img class="shop-products__item-icon" src="/img/icons/shop-product_icon.svg" alt="">
+									<h3 class="shop-products__item-title">Shop Boosted Revs</h3>
+									<p class="shop-products__item-subtitle">In Stock</p>
+								</a>
 							</div>
 						</div>
 					</div>
 				</section>
 				<section class="shop-skateboards">
-					<p class="shop-skateboards__text">High-performance</p>
-					<h1 class="shop-skateboards__title">Electric Skateboards</h1>
-					<p class="shop-skateboards__subtitle">Cruising campus, going to work or getting through that long list of errands has never been easier or more fun.</p>
-					<div class="shop-skateboards__button">
-						<a href="btn">Shop Now</a>
+					<img class="shop-skateboards__bg" src="/img/electric_bg.jpg" alt="">
+					<div class="shop-skateboards__content">
+						<p class="shop-skateboards__text">High-performance</p>
+						<h1 class="shop-skateboards__title">Electric Skateboards</h1>
+						<p class="shop-skateboards__subtitle">Cruising campus, going to work or getting through that long list of errands has never been easier or more fun.</p>
+						<div class="shop-skateboards__button">
+							<a class="btn" href="#">Shop Now</a>
+						</div>
 					</div>
 				</section>
 				<section class="rev-info">
 					<div class="container">
-						<div class="rev-info__images">
-							<img class="rev-info__img" src="/img/rev-img_01.jpg" alt="">
-							<img class="rev-info__img" src="/img/rev-img_02.jpg" alt="">
-						</div>
-						<div class="rev-info__text">
-							<h4 class="rev-info__title">Boosted Rev</h4>
-							<p class="rev-info__subtitle">There's never been an electric scooter quite like this. Speed past traffic at 24 mph. Go up to 22 miles on a single charge. You'll get there in no time at all. Stop and go with the roll of your thumb. Its intuitive design means there’s almost no learning curve.</p>
-							<div class="rev-info__button">
-								<a class="btn rev-info__btn" href="#">Shop Now</a>
+						<div class="rev-info__wrapper">
+							<div class="rev-info__images">
+								<img class="rev-info__img" src="/img/rev-img_01.jpg" alt="">
+								<img class="rev-info__img" src="/img/rev-img_02.jpg" alt="">
+							</div>
+							<div class="rev-info__text">
+								<h4 class="rev-info__title">Boosted Rev</h4>
+								<p class="rev-info__subtitle">There's never been an electric scooter quite like this. Speed past traffic at 24 mph. Go up to 22 miles on a single charge. You'll get there in no time at all. Stop and go with the roll of your thumb. Its intuitive design means there’s almost no learning curve.</p>
+								<div class="rev-info__button">
+									<a class="btn rev-info__btn" href="#">Shop Now</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -115,26 +127,43 @@
 				<section class="type-skateboards">
 					<div class="type-skateboards__wrapper">
 						<div class="type-skateboards__item">
-							<h3 class="shop-products__title">Shop Boosted Stealth</h3>
-							<p class="shop-products__subtitle">IN STOCK</p>
+							<a class="type-skateboards__link" href="#">
+								<img class="type-skateboards__bg" src="/img/stealth-img.jpg" alt="">
+								<div class="type-skateboards__text">
+									<h3 class="type-skateboards__title">Shop Boosted Stealth</h3>
+									<p class="type-skateboards__subtitle">IN STOCK</p>
+								</div>
+							</a>
 						</div>
 						<div class="type-skateboards__item">
-							<h3 class="shop-products__title">Shop Boosted Plus</h3>
-							<p class="shop-products__subtitle">IN STOCK</p>
+							<a class="type-skateboards__link" href="#">
+								<img class="type-skateboards__bg" src="/img/plus-img.jpg" alt="">
+								<div class="type-skateboards__text">
+									<h3 class="type-skateboards__title">Shop Boosted Plus</h3>
+									<p class="type-skateboards__subtitle">IN STOCK</p>
+								</div>
+							</a>
 						</div>
 						<div class="type-skateboards__item">
-							<h3 class="shop-products__title">Shop Boosted Mini</h3>
-							<p class="shop-products__subtitle">IN STOCK</p>
+							<a class="type-skateboards__link" href="#">
+								<img class="type-skateboards__bg" src="/img/mini-img.jpg" alt="">
+								<div class="type-skateboards__text">
+									<h3 class="type-skateboards__title">Shop Boosted Mini</h3>
+									<p class="type-skateboards__subtitle">IN STOCK</p>
+								</div>
+							</a>
 						</div>
 					</div>
 				</section>
 				<section class="video">
 					<div class="container">
-						<div class="video__item">
-							<img src="/img/video-img_01.jpg" alt="">
-						</div>
-						<div class="video__item">
-							<img src="/img/video-img_02.jpg" alt="">
+						<div class="video__wrapper">
+							<div class="video__item">
+								<img src="/img/video-img_01.jpg" alt="">
+							</div>
+							<div class="video__item">
+								<img src="/img/video-img_02.jpg" alt="">
+							</div>
 						</div>
 					</div>
 				</section>
@@ -178,31 +207,31 @@
 								<div class="explore__title">Explore</div>
 								<ul class="explore__list">
 									<li class="explore__list-item">
-										<a href="" class="explore__list-link">Electric Skateboards</a>
+										<a href="#" class="explore__list-link">Electric Skateboards</a>
 									</li>
 									<li class="explore__list-item">
-										<a href="" class="explore__list-link">Electric Scooters</a>
+										<a href="#" class="explore__list-link">Electric Scooters</a>
 									</li>
 									<li class="explore__list-item">
-										<a href="" class="explore__list-link">Accessories</a>
+										<a href="#" class="explore__list-link">Accessories</a>
 									</li>
 									<li class="explore__list-item">
-										<a href="" class="explore__list-link">FAQs</a>
+										<a href="#" class="explore__list-link">FAQs</a>
 									</li>
 									<li class="explore__list-item">
-										<a href="" class="explore__list-link">Warranty</a>
+										<a href="#" class="explore__list-link">Warranty</a>
 									</li>
 									<li class="explore__list-item">
-										<a href="" class="explore__list-link">Quick Start Guide</a>
+										<a href="#" class="explore__list-link">Quick Start Guide</a>
 									</li>
 									<li class="explore__list-item">
-										<a href="" class="explore__list-link">Contact</a>
+										<a href="#" class="explore__list-link">Contact</a>
 									</li>
 									<li class="explore__list-item">
-										<a href="" class="explore__list-link">Gift Card</a>
+										<a href="#" class="explore__list-link">Gift Card</a>
 									</li>
 									<li class="explore__list-item">
-										<a href="" class="explore__list-link">Accessibility Statement</a>
+										<a href="#" class="explore__list-link">Accessibility Statement</a>
 									</li>
 								</ul>
 							</div>
